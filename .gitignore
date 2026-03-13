@@ -1,0 +1,70 @@
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Python cache / logs
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# =========================
+# Build / dist
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# =========================
+# Tests / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# =========================
+# Type check / lint cache
+# =========================
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# JetBrains IDEs (PyCharm/IntelliJ)
+# =========================
+.idea/
+*.iml
+out/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
